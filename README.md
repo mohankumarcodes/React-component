@@ -1,74 +1,42 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+This is a simple and clean React + TypeScript application that demonstrates reusable component design using:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- ✅ Custom `ListGroup` to select countries
+- ✅ Reusable `Button` component with Bootstrap styles
+- ✅ Dismissible `Alert` component
+- ✅ Functional component structure using Hooks (`useState`)
+- ✅ Bootstrap 5 for styling
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshot
 
-## Expanding the ESLint configuration
+![App Screenshot](./screenshot.png) <!-- Replace with actual screenshot filename -->
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- Select a country from a list
+- Display a Bootstrap alert with dismiss functionality
+- Responsive layout using Bootstrap Grid
+- Clean separation of UI logic into components
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧱 Components
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| Component | Description |
+|----------|-------------|
+| `ListGroups` | Displays a list of countries with selectable state |
+| `Alert`     | A Bootstrap dismissible alert with children content |
+| `Button`    | A Bootstrap-styled button supporting color and action |
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-=======
-# React-component
-This Source contains react List Grid and Button and Alert Components and using to developed React+TypeScript+Bootstrap.
->>>>>>> 0c2560a7a3d44ad81ec9db86647e8b7cec5c7500
+---
+
+## 🛠️ Installation & Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/mohankumarcodes/React-component.git
+cd React-component
