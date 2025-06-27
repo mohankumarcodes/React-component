@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -67,3 +68,7 @@ export default tseslint.config([
   },
 ])
 ```
+=======
+# React-component
+This Source contains react List Grid and Button and Alert Components and using to developed React+TypeScript+Bootstrap.
+>>>>>>> 0c2560a7a3d44ad81ec9db86647e8b7cec5c7500
